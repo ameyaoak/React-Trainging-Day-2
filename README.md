@@ -158,6 +158,7 @@ Every hook takes 2 things -
 1.Object 
 2.Setter method
 like ```const[myName,setMyName] = React.useState("Name");```
+	
 you can set array or object using useState([]) and useState({})
 
 
