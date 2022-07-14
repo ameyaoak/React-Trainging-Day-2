@@ -73,7 +73,7 @@ Recommended - Browser Router
 
 
 import { Route, Routes, BrowserRouter } from 'react-router-dom';
-
+<div>
  <BrowserRouter>
         <div className='App'>
           <Navbar />
@@ -85,4 +85,4 @@ import { Route, Routes, BrowserRouter } from 'react-router-dom';
 
         </div>
  </BrowserRouter>
-
+</div>
