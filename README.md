@@ -133,22 +133,39 @@ Hooks - Helps to do reusability  refer eight example
 
 Basic Hooks: 3 Hooks in react
 	1. USESTATE - imp
+	
 	2. USEEFFECT - imp
+	
 	3. USECONTEXT - imp
+	
 Additional Hooks: 4 Hooks
+	
 	4. USEREDUCER - imp
+	
 	5. USECALLBACK - imp
+	
 	6. USEMEMO - imp
+	
 	7. USEREF - imp
+	
 	8. USEIMPERATIVEHANDLE
+	
 	9. USELAYOUTEFFECT
+	
 	10. USEDEBUGVALUE
+	
 	11. USEDEFERREDVALUE
+	
 	12. USETRANSITION
+	
 	13. USEID
+	
 Library Hooks - 2
+	
 	14. USESYNCEXTERNALSTORE
+	
 	15. USEINSERTIONEFFECT	
+	
 Cutom Hooks: Can be created and shared post 16.8 version of react
 
 
