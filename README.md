@@ -20,11 +20,11 @@ its like entrypoint to the class
 
 
 CDNs - 
-
+```
   <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
   <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
   <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
-
+```
 
 State - Local to person
 Context - Local to Johndeere (has boundries)
