@@ -69,11 +69,11 @@ Routers
 Static - Hash Router
 Dynamic - Browser/Memory Router
 
-Recommended - Browser Router
+Recommended - Browser Router - Refer sixth-example
 
-
+`
 import { Route, Routes, BrowserRouter } from 'react-router-dom';
-<div>
+
  <BrowserRouter>
         <div className='App'>
           <Navbar />
@@ -85,4 +85,32 @@ import { Route, Routes, BrowserRouter } from 'react-router-dom';
 
         </div>
  </BrowserRouter>
-</div>
+`
+
+This gives a jerk effect because of a href
+
+So use Link tag given by materials ui
+link tag in html is made Link tag in react
+
+Link tag and NavLink tag given by router dom
+Navlink - keeps the route link highlighted indicating which page is open
+using activeClassName - Refer seventh-example
+
+`
+const MainHeader = () => {
+    return (
+        <header className={classes.header}>
+            <nav>
+                <ul>
+                    <li>
+                        <NavLink activeClassName={classes.active} to='/welcome'>Welcome</NavLink>
+                    </li>
+                    <li>
+                        <NavLink activeClassName={classes.active} to='/products'>Products</NavLink>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+    );
+}
+`
