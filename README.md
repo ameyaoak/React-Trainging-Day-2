@@ -132,6 +132,7 @@ Hooks - Helps to do reusability  refer eight example
 	  - Property POJO
 
 Basic Hooks: 3 Hooks in react
+	
 	1. USESTATE - imp
 	
 	2. USEEFFECT - imp
